@@ -1,0 +1,80 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+@import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+// endbower
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+// Navigation
+.menu-top {
+    // height: 100px;
+    background: #222;
+    border-bottom: none;
+}
+.logo {
+    background: url(../images/logo-blue.png) no-repeat 0px 0px;
+    width: 195px;
+    height: 49px;
+}
+.menu-padding {
+    padding: 20px 50px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #222;
+}
+.navbar-collapse{
+    box-shadow: none;
+}
+// header
+
+.hero {
+    background: url(../images/4.jpg) no-repeat center 0px fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+}
+.main-title {
+    // margin-top: 70px;
+    color: #fff;
+    font-size: 130px;
+    // text-transform: uppercase;
+    padding-top: 190px;
+    // font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.intro-text {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+// content
+.main-box {
+    height: 600px;
+    background: #fbfbfb;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+}
+
+
+
